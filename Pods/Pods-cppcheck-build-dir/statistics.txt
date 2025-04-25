@@ -1,0 +1,7 @@
+[25.04.2025]
+1745595109746
+cppcheck-error:1
+cppcheck-warning:31
+cppcheck-style:38
+cppcheck-performance:1
+cppcheck-portability:0

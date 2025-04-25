@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1155244047314801666">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.h" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Wire.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Wire.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.h" line="5" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_I2CDevice&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_I2CDevice&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.h" line="10" column="3"/>
+            <symbol>Adafruit_I2CDevice</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:17:8" call-funcname="write" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="250" col="8" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="1"/>
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:16:8" call-funcname="read" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="254" col="10" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" line="8" col="1" hash="10468973639161656217"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" functionName="maxBufferSize" lineNumber="26"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="begin" lineNumber="30"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="end" lineNumber="43"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="detected" lineNumber="62"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write" lineNumber="102"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="read" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="_read" lineNumber="196"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write_then_read" lineNumber="247"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="address" lineNumber="261"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="setSpeed" lineNumber="270"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:17:8" call-funcname="write" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="250" col="8" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="1"/>
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:16:8" call-funcname="read" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="254" col="10" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" line="8" col="1" hash="1143813704595369644"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" functionName="maxBufferSize" lineNumber="26"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="begin" lineNumber="30"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="end" lineNumber="43"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="detected" lineNumber="62"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write" lineNumber="102"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="read" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="_read" lineNumber="196"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write_then_read" lineNumber="247"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="address" lineNumber="261"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="setSpeed" lineNumber="270"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:17:8" call-funcname="write" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="250" col="8" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="1"/>
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:16:8" call-funcname="read" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="254" col="10" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" line="8" col="1" hash="15171215525967577887"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" functionName="maxBufferSize" lineNumber="26"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="begin" lineNumber="30"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="end" lineNumber="43"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="detected" lineNumber="62"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write" lineNumber="102"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="read" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="_read" lineNumber="196"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write_then_read" lineNumber="247"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="address" lineNumber="261"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="setSpeed" lineNumber="270"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:17:8" call-funcname="write" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="250" col="8" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="1"/>
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:16:8" call-funcname="read" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="254" col="10" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" line="8" col="1" hash="2295983096965245043"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" functionName="maxBufferSize" lineNumber="26"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="begin" lineNumber="30"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="end" lineNumber="43"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="detected" lineNumber="62"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write" lineNumber="102"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="read" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="_read" lineNumber="196"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write_then_read" lineNumber="247"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="address" lineNumber="261"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="setSpeed" lineNumber="270"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:17:8" call-funcname="write" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="250" col="8" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="1"/>
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:16:8" call-funcname="read" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="254" col="10" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" line="8" col="1" hash="5694991595096167039"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" functionName="maxBufferSize" lineNumber="26"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="begin" lineNumber="30"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="end" lineNumber="43"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="detected" lineNumber="62"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write" lineNumber="102"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="read" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="_read" lineNumber="196"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write_then_read" lineNumber="247"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="address" lineNumber="261"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="setSpeed" lineNumber="270"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+        <error id="syntaxError" severity="error" msg="syntax error: 1 . print" verbose="syntax error: 1 . print" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.cpp" line="71" column="15"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:17:8" call-funcname="write" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="250" col="8" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="1"/>
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:16:8" call-funcname="read" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="254" col="10" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" line="8" col="1" hash="3655590341921762708"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" functionName="maxBufferSize" lineNumber="26"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="begin" lineNumber="30"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="end" lineNumber="43"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="detected" lineNumber="62"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write" lineNumber="102"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="read" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="_read" lineNumber="196"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write_then_read" lineNumber="247"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="address" lineNumber="261"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="setSpeed" lineNumber="270"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="I2C_BUFFER_LENGTH"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:17:8" call-funcname="write" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="250" col="8" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="1"/>
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:16:8" call-funcname="read" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" line="254" col="10" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h:19:8" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_I2CDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" line="8" col="1" hash="1353080702185644682"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.h" functionName="maxBufferSize" lineNumber="26"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="begin" lineNumber="30"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="end" lineNumber="43"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="detected" lineNumber="62"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write" lineNumber="102"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="read" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="_read" lineNumber="196"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="write_then_read" lineNumber="247"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="address" lineNumber="261"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" functionName="setSpeed" lineNumber="270"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="_read"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransmission"/>
+    <functioncall functionName="detected"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTransmission"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="maxBufferSize"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="requestFrom"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+</analyzerinfo>

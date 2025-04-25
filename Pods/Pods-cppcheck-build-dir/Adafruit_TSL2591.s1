@@ -1,0 +1,22 @@
+Adafruit_TSL2591
+Adafruit_TSL2591
+begin call:[Adafruit_I2CDevice,begin,disable,read8,setGain,setTiming]
+begin call:[begin] noreturn:[begin]
+enable call:[begin,write8] noreturn:[write8]
+disable call:[begin,write8] noreturn:[write8]
+setGain call:[begin,disable,enable,write8] noreturn:[disable]
+getGain
+setTiming call:[begin,disable,enable,write8] noreturn:[disable]
+getTiming
+calculateLux
+getFullLuminosity call:[begin,delay,disable,enable,read16] noreturn:[delay]
+getLuminosity call:[getFullLuminosity,return] noreturn:[return]
+registerInterrupt call:[begin,disable,enable,write8] noreturn:[disable]
+clearInterrupt call:[begin,disable,enable,write8] noreturn:[disable]
+getStatus call:[begin,disable,enable,read8]
+getEvent call:[calculateLux,getFullLuminosity,memset,millis,sizeof]
+getSensor call:[memset,sizeof,strncpy]
+read8 call:[write_then_read]
+read16 call:[uint16_t,write_then_read] noreturn:[uint16_t]
+write8 call:[write] noreturn:[write]
+write8 call:[write] noreturn:[write]

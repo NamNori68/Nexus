@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8831731316011110788">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_GenericDevice.h" line="4" column="0"/>
+        </error>
+  <FileInfo check="Class">
+<class name="Adafruit_GenericDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_GenericDevice.h" line="19" col="1" hash="5817167232271212528"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_GenericDevice.cpp" functionName="begin" lineNumber="28"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_GenericDevice.cpp" functionName="write" lineNumber="37"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_GenericDevice.cpp" functionName="read" lineNumber="47"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_GenericDevice.cpp" functionName="readRegister" lineNumber="59"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_GenericDevice.cpp" functionName="writeRegister" lineNumber="72"/>
+    <functioncall functionName="Adafruit_GenericDevice"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,10 @@
+Adafruit_SGP30
+begin call:[Adafruit_I2CDevice,IAQinit,begin,readWordFromCommand]
+softReset call:[readWordFromCommand] noreturn:[readWordFromCommand]
+IAQinit call:[readWordFromCommand] noreturn:[readWordFromCommand]
+IAQmeasure call:[readWordFromCommand]
+IAQmeasureRaw call:[readWordFromCommand]
+getIAQBaseline call:[readWordFromCommand]
+setIAQBaseline call:[generateCRC,readWordFromCommand] noreturn:[readWordFromCommand]
+setHumidity call:[generateCRC,readWordFromCommand] noreturn:[readWordFromCommand]
+readWordFromCommand call:[delay,generateCRC,read,write]

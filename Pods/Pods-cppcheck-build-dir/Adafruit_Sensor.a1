@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6695521348440145270">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit Unified Sensor\Adafruit_Sensor.h" line="24" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.h:219:16" call-funcname="getSensor" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.cpp" line="10" col="12" call-argexpr="&amp;sensor" call-argvaluetype="7" call-argvalue="0" call-argvalue-ufr="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="sensors_vec_t" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.h" line="87" col="9" hash="15057457010295754076"/>
+<class name="sensors_color_t" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.h" line="114" col="9" hash="12215145390462841715"/>
+<class name="sensors_event_t" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.h" line="130" col="9" hash="13075975874209659251"/>
+<class name="sensor_t" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.h" line="183" col="9" hash="16753258824854221300"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.cpp" functionName="printSensorDetails" lineNumber="8"/>
+    <functioncall functionName="F"/>
+    <functioncall functionName="getSensor"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="println"/>
+  </FileInfo>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;WProgram.h&quot; not found." verbose="Include file: &quot;WProgram.h&quot; not found.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit Unified Sensor\Adafruit_Sensor.h" line="29" column="0"/>
+        </error>
+</analyzerinfo>

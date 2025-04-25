@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10891409998299458916">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_SGP30.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_SGP30.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\sensor_sgp30.cpp" line="1" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_sgp30.cpp" functionName="getAbsoluteHumidity" lineNumber="5"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_sgp30.cpp" functionName="sensor_sgp30_setup" lineNumber="12"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_sgp30.cpp" functionName="sensor_sgp30_measure" lineNumber="31"/>
+    <functioncall functionName="HEX"/>
+    <functioncall functionName="IAQmeasure"/>
+    <functioncall functionName="IAQmeasureRaw"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="exp"/>
+    <functioncall functionName="getIAQBaseline"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="uint32_t"/>
+  </FileInfo>
+</analyzerinfo>

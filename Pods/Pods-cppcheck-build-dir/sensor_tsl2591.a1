@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4167103233321803142">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_TSL2591.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_TSL2591.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\sensor_tsl2591.cpp" line="1" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_tsl2591.cpp" functionName="sensor_2591_setup" lineNumber="5"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_tsl2591.cpp" functionName="sensor_2591_displayDetails" lineNumber="20"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_tsl2591.cpp" functionName="sensor_2591_configure" lineNumber="36"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_tsl2591.cpp" functionName="sensor_2591_simpleMEasure" lineNumber="78"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_tsl2591.cpp" functionName="sensor_2591_advancedMeasure" lineNumber="92"/>
+    <functioncall functionName="Adafruit_TSL2591"/>
+    <functioncall functionName="DEC"/>
+    <functioncall functionName="F"/>
+    <functioncall functionName="TSL2591_GAIN_MED"/>
+    <functioncall functionName="TSL2591_INTEGRATIONTIME_300MS"/>
+    <functioncall functionName="TSL2591_VISIBLE"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="calculateLux"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="getFullLuminosity"/>
+    <functioncall functionName="getGain"/>
+    <functioncall functionName="getLuminosity"/>
+    <functioncall functionName="getSensor"/>
+    <functioncall functionName="getTiming"/>
+    <functioncall functionName="millis"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="setGain"/>
+    <functioncall functionName="setTiming"/>
+  </FileInfo>
+</analyzerinfo>

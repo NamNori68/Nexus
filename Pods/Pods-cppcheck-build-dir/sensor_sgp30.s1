@@ -1,0 +1,3 @@
+getAbsoluteHumidity call:[exp]
+sensor_sgp30_setup global:[sgp] call:[begin,print,println] noreturn:[println]
+sensor_sgp30_measure global:[counter,sgp] call:[IAQmeasure,IAQmeasureRaw,getIAQBaseline,print,println] noreturn:[println]

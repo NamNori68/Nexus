@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11429363654450902976">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Wire.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Wire.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;WiFi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;WiFi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;sensor_tsl2591.h&quot; not found." verbose="Include file: &quot;sensor_tsl2591.h&quot; not found.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;sensor_bme280.h&quot; not found." verbose="Include file: &quot;sensor_bme280.h&quot; not found.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;sensor_sgp30.h&quot; not found." verbose="Include file: &quot;sensor_sgp30.h&quot; not found.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="7" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;local_time_info&apos; can be declared as pointer to const" verbose="Variable &apos;local_time_info&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/main.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\main.cpp" line="39" column="14" info="Variable &apos;local_time_info&apos; can be declared as pointer to const"/>
+            <symbol>local_time_info</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/main.cpp" functionName="setup" lineNumber="15"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/main.cpp" functionName="print_time" lineNumber="36"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/main.cpp" functionName="loop" lineNumber="57"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="gettimeofday"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="perror"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="print_time"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="sensor_2591_advancedMeasure"/>
+    <functioncall functionName="sensor_2591_configure"/>
+    <functioncall functionName="sensor_2591_displayDetails"/>
+    <functioncall functionName="sensor_2591_setup"/>
+    <functioncall functionName="sensor_bme280_measure"/>
+    <functioncall functionName="sensor_bme280_setup"/>
+    <functioncall functionName="sensor_sgp30_measure"/>
+    <functioncall functionName="sensor_sgp30_setup"/>
+    <functioncall functionName="setPins"/>
+    <functioncall functionName="strftime"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10365395858737720223">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_BME280.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_BME280.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\sensor_bme280.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_Sensor.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_Sensor.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\src\sensor_bme280.cpp" line="2" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_bme280.cpp" functionName="sensor_bme280_setup" lineNumber="11"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_bme280.cpp" functionName="sensor_bme280_measure" lineNumber="30"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="println"/>
+    <functioncall functionName="readAltitude"/>
+    <functioncall functionName="readHumidity"/>
+    <functioncall functionName="readPressure"/>
+    <functioncall functionName="readTemperature"/>
+    <functioncall functionName="sensorID"/>
+  </FileInfo>
+</analyzerinfo>

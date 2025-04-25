@@ -1,0 +1,15 @@
+Adafruit_SPIDevice call:[SPISettings]
+Adafruit_SPIDevice
+Adafruit_SPIDevice
+begin call:[begin,digitalWrite,pinMode] noreturn:[begin,digitalWrite,pinMode]
+transfer call:[delayMicroseconds,digitalRead,digitalWrite,transfer] noreturn:[delayMicroseconds,digitalWrite]
+transfer call:[transfer]
+beginTransaction call:[beginTransaction] noreturn:[beginTransaction]
+endTransaction call:[endTransaction] noreturn:[endTransaction]
+setChipSelect call:[digitalWrite] noreturn:[digitalWrite]
+beginTransactionWithAssertingCS call:[beginTransaction,setChipSelect] noreturn:[setChipSelect]
+endTransactionWithDeassertingCS call:[endTransaction,setChipSelect] noreturn:[endTransaction]
+write call:[beginTransactionWithAssertingCS,endTransactionWithDeassertingCS,transfer] noreturn:[transfer]
+read call:[beginTransactionWithAssertingCS,endTransactionWithDeassertingCS,memset,transfer]
+write_then_read call:[beginTransactionWithAssertingCS,endTransactionWithDeassertingCS,transfer] noreturn:[transfer]
+write_and_read call:[beginTransactionWithAssertingCS,endTransactionWithDeassertingCS,transfer]

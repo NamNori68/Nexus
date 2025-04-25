@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4044193756608557411">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Arduino.h&quot; not found." verbose="Include file: &quot;Arduino.h&quot; not found.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_I2CDevice.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_I2CDevice.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_SPIDevice.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_SPIDevice.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_Sensor.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_Sensor.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;Arduino.h&quot; not found." verbose="Include file: &quot;Arduino.h&quot; not found.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="32" column="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_i2caddr&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_i2caddr&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45" column="18"/>
+            <symbol>Adafruit_BME280::_i2caddr</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_sensorID&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_sensorID&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45" column="18"/>
+            <symbol>Adafruit_BME280::_sensorID</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::t_fine&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::t_fine&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45" column="18"/>
+            <symbol>Adafruit_BME280::t_fine</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_bme280_calib&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_bme280_calib&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45" column="18"/>
+            <symbol>Adafruit_BME280::_bme280_calib</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_configReg&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_configReg&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45" column="18"/>
+            <symbol>Adafruit_BME280::_configReg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_measReg&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_measReg&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45" column="18"/>
+            <symbol>Adafruit_BME280::_measReg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_humReg&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_humReg&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45" column="18"/>
+            <symbol>Adafruit_BME280::_humReg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_i2caddr&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_i2caddr&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57" column="18"/>
+            <symbol>Adafruit_BME280::_i2caddr</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_sensorID&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_sensorID&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57" column="18"/>
+            <symbol>Adafruit_BME280::_sensorID</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::t_fine&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::t_fine&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57" column="18"/>
+            <symbol>Adafruit_BME280::t_fine</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_bme280_calib&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_bme280_calib&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57" column="18"/>
+            <symbol>Adafruit_BME280::_bme280_calib</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_configReg&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_configReg&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57" column="18"/>
+            <symbol>Adafruit_BME280::_configReg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_measReg&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_measReg&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57" column="18"/>
+            <symbol>Adafruit_BME280::_measReg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_BME280::_humReg&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_BME280::_humReg&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57" column="18"/>
+            <symbol>Adafruit_BME280::_humReg</symbol>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &apos;Adafruit_BME280&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;Adafruit_BME280&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="59" column="3"/>
+            <symbol>Adafruit_BME280</symbol>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &apos;Adafruit_BME280&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;Adafruit_BME280&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="59" column="3"/>
+            <symbol>Adafruit_BME280</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_BME280_Temp&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_BME280_Temp&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="115" column="3"/>
+            <symbol>Adafruit_BME280_Temp</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_BME280_Pressure&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_BME280_Pressure&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="129" column="3"/>
+            <symbol>Adafruit_BME280_Pressure</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_BME280_Humidity&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_BME280_Humidity&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="143" column="3"/>
+            <symbol>Adafruit_BME280_Humidity</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_BME280&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_BME280&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="215" column="3"/>
+            <symbol>Adafruit_BME280</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h:260:8" call-funcname="write8" call-argnr="2" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" line="161" col="9" call-argexpr="MODE_SLEEP" call-argvaluetype="0" call-argvalue="0" call-argvalue-ufr="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="bme280_calib_data" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="84" col="9" hash="7886701252758049951"/>
+<class name="Adafruit_BME280_Temp" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="111" col="1" hash="18208829527050431519"/>
+<class name="Adafruit_BME280_Pressure" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="125" col="1" hash="11176534384714401730"/>
+<class name="Adafruit_BME280_Humidity" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="139" col="1" hash="10852325266590528393"/>
+<class name="Adafruit_BME280" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="157" col="1" hash="7511464015580954849"/>
+<class name="Adafruit_BME280::config" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="284" col="3" hash="3349503110402410633"/>
+<class name="Adafruit_BME280::ctrl_meas" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="318" col="3" hash="17152916915443960071"/>
+<class name="Adafruit_BME280::ctrl_hum" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" line="353" col="3" hash="4192586227073174053"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h:117:8" my-argnr="1" my-argname="sensor" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" line="535" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h:116:8" my-argnr="1" my-argname="event" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" line="558" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h:131:8" my-argnr="1" my-argname="sensor" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" line="575" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h:130:8" my-argnr="1" my-argname="event" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" line="598" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h:145:8" my-argnr="1" my-argname="sensor" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" line="615" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h:144:8" my-argnr="1" my-argname="event" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" line="638" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" functionName="get" lineNumber="309"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" functionName="get" lineNumber="344"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.h" functionName="get" lineNumber="367"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="begin" lineNumber="86"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="init" lineNumber="106"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="setSampling" lineNumber="144"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="write8" lineNumber="176"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="read8" lineNumber="193"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="read16" lineNumber="210"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="read16_LE" lineNumber="228"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="readS16" lineNumber="238"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="readS16_LE" lineNumber="245"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="read24" lineNumber="254"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="takeForcedMeasurement" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="readCoefficients" lineNumber="302"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="isReadingCalibration" lineNumber="331"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="readTemperature" lineNumber="341"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="readPressure" lineNumber="365"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="readHumidity" lineNumber="404"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="readAltitude" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="seaLevelForAltitude" lineNumber="457"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="sensorID" lineNumber="472"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getTemperatureCompensation" lineNumber="478"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="setTemperatureCompensation" lineNumber="487"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getTemperatureSensor" lineNumber="496"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getPressureSensor" lineNumber="509"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getHumiditySensor" lineNumber="521"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getSensor" lineNumber="533"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getEvent" lineNumber="556"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getSensor" lineNumber="573"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getEvent" lineNumber="596"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getSensor" lineNumber="613"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" functionName="getEvent" lineNumber="636"/>
+    <functioncall functionName="Adafruit_BME280"/>
+    <functioncall functionName="Adafruit_BME280_Humidity"/>
+    <functioncall functionName="Adafruit_BME280_Pressure"/>
+    <functioncall functionName="Adafruit_BME280_Temp"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="NAN"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SENSOR_TYPE_AMBIENT_TEMPERATURE"/>
+    <functioncall functionName="SENSOR_TYPE_PRESSURE"/>
+    <functioncall functionName="SENSOR_TYPE_RELATIVE_HUMIDITY"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPI_BITORDER_MSBFIRST"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isReadingCalibration"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="millis"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="read16"/>
+    <functioncall functionName="read16_LE"/>
+    <functioncall functionName="read24"/>
+    <functioncall functionName="read8"/>
+    <functioncall functionName="readCoefficients"/>
+    <functioncall functionName="readHumidity"/>
+    <functioncall functionName="readPressure"/>
+    <functioncall functionName="readS16_LE"/>
+    <functioncall functionName="readTemperature"/>
+    <functioncall functionName="sensor_t"/>
+    <functioncall functionName="sensors_event_t"/>
+    <functioncall functionName="setSampling"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="write8"/>
+    <functioncall functionName="write_then_read"/>
+  </FileInfo>
+</analyzerinfo>

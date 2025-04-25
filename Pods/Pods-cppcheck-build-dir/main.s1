@@ -1,0 +1,3 @@
+setup global:[scl_pin,sda_pin] call:[begin,delay,pinMode,sensor_2591_configure,sensor_2591_displayDetails,sensor_2591_setup,sensor_bme280_setup,sensor_sgp30_setup,setPins] noreturn:[sensor_sgp30_setup]
+print_time call:[gettimeofday,localtime,perror,printf,sizeof,strftime] noreturn:[printf]
+loop call:[delay,digitalWrite,print_time,println,sensor_2591_advancedMeasure,sensor_bme280_measure,sensor_sgp30_measure] noreturn:[delay]

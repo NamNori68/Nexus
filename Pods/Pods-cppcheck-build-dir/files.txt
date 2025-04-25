@@ -1,0 +1,12 @@
+Adafruit_BME280.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp
+Adafruit_BusIO_Register.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_BusIO_Register.cpp
+Adafruit_GenericDevice.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_GenericDevice.cpp
+Adafruit_I2CDevice.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp
+Adafruit_SPIDevice.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp
+Adafruit_SGP30.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit SGP30 Sensor/Adafruit_SGP30.cpp
+Adafruit_TSL2591.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp
+Adafruit_Sensor.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit Unified Sensor/Adafruit_Sensor.cpp
+main.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/main.cpp
+sensor_bme280.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_bme280.cpp
+sensor_sgp30.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_sgp30.cpp
+sensor_tsl2591.a1::C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/src/sensor_tsl2591.cpp

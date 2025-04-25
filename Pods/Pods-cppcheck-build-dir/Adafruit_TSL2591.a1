@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10391117513143581734">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_I2CDevice.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_I2CDevice.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="22" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Adafruit_Sensor.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Adafruit_Sensor.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="23" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="49" column="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_TSL2591::_addr&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_TSL2591::_addr&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="58" column="19"/>
+            <symbol>Adafruit_TSL2591::_addr</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;_initialized&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;_initialized&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="59" column="3"/>
+            <symbol>_initialized</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_TSL2591&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_TSL2591&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="133" column="3"/>
+            <symbol>Adafruit_TSL2591</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;lum&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;lum&apos;. The initialized value is overwritten before it is read." cwe="563" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="440" column="7" info="lum is overwritten"/>
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="437" column="16" info="lum is initialized"/>
+            <symbol>lum</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.h:164:8" call-funcname="write8" call-argnr="2" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" line="154" col="9" call-argexpr="0x00" call-argvaluetype="0" call-argvalue="0" call-argvalue-ufr="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_TSL2591" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.h" line="131" col="1" hash="6895374945760182857"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.h:157:8" my-argnr="1" my-argname="event" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" line="445" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.h:158:8" my-argnr="1" my-argname="sensor" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" line="469" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="begin" lineNumber="81"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="begin" lineNumber="121"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="enable" lineNumber="128"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="disable" lineNumber="146"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="setGain" lineNumber="164"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="getGain" lineNumber="183"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="setTiming" lineNumber="191"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="getTiming" lineNumber="210"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="calculateLux" lineNumber="220"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="getFullLuminosity" lineNumber="300"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="getLuminosity" lineNumber="336"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="registerInterrupt" lineNumber="366"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="clearInterrupt" lineNumber="393"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="getStatus" lineNumber="412"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="getEvent" lineNumber="435"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="getSensor" lineNumber="467"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="read8" lineNumber="484"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="read16" lineNumber="491"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="write8" lineNumber="498"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" functionName="write8" lineNumber="505"/>
+    <functioncall functionName="Adafruit_I2CDevice"/>
+    <functioncall functionName="Adafruit_TSL2591"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SENSOR_TYPE_LIGHT"/>
+    <functioncall functionName="Wire"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="calculateLux"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="disable"/>
+    <functioncall functionName="enable"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="getFullLuminosity"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="millis"/>
+    <functioncall functionName="read16"/>
+    <functioncall functionName="read8"/>
+    <functioncall functionName="sensor_t"/>
+    <functioncall functionName="sensors_event_t"/>
+    <functioncall functionName="setGain"/>
+    <functioncall functionName="setTiming"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="write8"/>
+    <functioncall functionName="write_then_read"/>
+  </FileInfo>
+</analyzerinfo>

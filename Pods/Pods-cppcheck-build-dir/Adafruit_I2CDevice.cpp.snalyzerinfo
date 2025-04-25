@@ -1,0 +1,11 @@
+maxBufferSize
+Adafruit_I2CDevice
+begin call:[begin,detected] noreturn:[detected]
+end call:[end]
+detected call:[begin,beginTransmission,endTransmission]
+write call:[beginTransmission,endTransmission,maxBufferSize,write]
+read call:[_read,maxBufferSize]
+_read call:[read,requestFrom] noreturn:[read]
+write_then_read call:[read,write] noreturn:[read]
+address
+setSpeed

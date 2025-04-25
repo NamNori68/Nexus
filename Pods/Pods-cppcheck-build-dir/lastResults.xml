@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.17.1"/>
+    <errors>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Arduino.h&amp;quot; not found." verbose="Include file: &amp;quot;Arduino.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="24"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_I2CDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_I2CDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="26"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_SPIDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_SPIDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="27"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_Sensor.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_Sensor.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="28"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Adafruit_BME280_Temp&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Adafruit_BME280_Temp&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="115"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Adafruit_BME280_Pressure&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Adafruit_BME280_Pressure&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="129"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Adafruit_BME280_Humidity&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Adafruit_BME280_Humidity&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="143"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Adafruit_BME280&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Adafruit_BME280&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.h" line="215"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Arduino.h&amp;quot; not found." verbose="Include file: &amp;quot;Arduino.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="32"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_i2caddr&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_i2caddr&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_sensorID&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_sensorID&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::t_fine&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::t_fine&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_bme280_calib&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_bme280_calib&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_configReg&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_configReg&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_measReg&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_measReg&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_humReg&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_humReg&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="45"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_i2caddr&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_i2caddr&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_sensorID&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_sensorID&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::t_fine&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::t_fine&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_bme280_calib&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_bme280_calib&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_configReg&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_configReg&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_measReg&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_measReg&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_BME280::_humReg&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_BME280::_humReg&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="57"/>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &amp;#039;Adafruit_BME280&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;Adafruit_BME280&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="59"/>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &amp;#039;Adafruit_BME280&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;Adafruit_BME280&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BME280 Library/Adafruit_BME280.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="59"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getHumiditySensor&amp;#039; is never used." verbose="The function &amp;#039;getHumiditySensor&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="521"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getPressureSensor&amp;#039; is never used." verbose="The function &amp;#039;getPressureSensor&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="509"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getTemperatureCompensation&amp;#039; is never used." verbose="The function &amp;#039;getTemperatureCompensation&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="478"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getTemperatureSensor&amp;#039; is never used." verbose="The function &amp;#039;getTemperatureSensor&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="496"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;readS16&amp;#039; is never used." verbose="The function &amp;#039;readS16&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="238"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;seaLevelForAltitude&amp;#039; is never used." verbose="The function &amp;#039;seaLevelForAltitude&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="457"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setTemperatureCompensation&amp;#039; is never used." verbose="The function &amp;#039;setTemperatureCompensation&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="487"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;takeForcedMeasurement&amp;#039; is never used." verbose="The function &amp;#039;takeForcedMeasurement&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BME280 Library\Adafruit_BME280.cpp" line="273"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_BusIO_Register.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_BusIO_Register.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_BusIO_Register.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_GenericDevice.h" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.h" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Wire.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Wire.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.h" line="5"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Adafruit_I2CDevice&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Adafruit_I2CDevice&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.h" line="10"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: 1 . print" verbose="syntax error: 1 . print" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_I2CDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.cpp" line="71"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;address&amp;#039; is never used." verbose="The function &amp;#039;address&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.cpp" line="261"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setSpeed&amp;#039; is never used." verbose="The function &amp;#039;setSpeed&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_I2CDevice.cpp" line="270"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.h" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;SPI.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;SPI.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.h" line="9"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Adafruit_SPIDevice&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Adafruit_SPIDevice&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.h" line="97"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="0"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;_dataOrder&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;_dataOrder&amp;#039; a value by passing the value to the constructor in the initialization list." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="74"/>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &amp;#039;Adafruit_SPIDevice&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;Adafruit_SPIDevice&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="22"/>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &amp;#039;Adafruit_SPIDevice&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;Adafruit_SPIDevice&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="22"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="352"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="355"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="446"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::mosiPort&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::mosiPort&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::clkPort&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::clkPort&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::misoPort&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::misoPort&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::csPort&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::csPort&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::mosiPinMask&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::mosiPinMask&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::misoPinMask&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::misoPinMask&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::clkPinMask&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::clkPinMask&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SPIDevice::csPinMask&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SPIDevice::csPinMask&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="59"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="62"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="66"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="69"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: 1 . print" verbose="syntax error: 1 . print" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="370"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;write_and_read&amp;#039; is never used." verbose="The function &amp;#039;write_and_read&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="502"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Arduino.h&amp;quot; not found." verbose="Include file: &amp;quot;Arduino.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.h" line="24"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_BusIO_Register.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_BusIO_Register.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.h" line="25"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_I2CDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_I2CDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.h" line="26"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Arduino.h&amp;quot; not found." verbose="Include file: &amp;quot;Arduino.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="29"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit SGP30 Sensor/Adafruit_SGP30.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SGP30::TVOC&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SGP30::TVOC&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit SGP30 Sensor/Adafruit_SGP30.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="34"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SGP30::eCO2&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SGP30::eCO2&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit SGP30 Sensor/Adafruit_SGP30.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="34"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SGP30::rawH2&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SGP30::rawH2&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit SGP30 Sensor/Adafruit_SGP30.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="34"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SGP30::rawEthanol&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SGP30::rawEthanol&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit SGP30 Sensor/Adafruit_SGP30.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="34"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_SGP30::serialnumber&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_SGP30::serialnumber&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit SGP30 Sensor/Adafruit_SGP30.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="34"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setHumidity&amp;#039; is never used." verbose="The function &amp;#039;setHumidity&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="202"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setIAQBaseline&amp;#039; is never used." verbose="The function &amp;#039;setIAQBaseline&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="178"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;softReset&amp;#039; is never used." verbose="The function &amp;#039;softReset&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit SGP30 Sensor\Adafruit_SGP30.cpp" line="88"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_I2CDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_I2CDevice.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="22"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_Sensor.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_Sensor.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="23"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="24"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Adafruit_TSL2591&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Adafruit_TSL2591&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.h" line="133"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="49"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Adafruit_TSL2591::_addr&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Adafruit_TSL2591::_addr&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="58"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;_initialized&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;_initialized&amp;#039; a value by passing the value to the constructor in the initialization list." cwe="398" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="59"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;lum&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;lum&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit TSL2591 Library/Adafruit_TSL2591.cpp" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="440" info="lum is overwritten"/>
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="437" info="lum is initialized"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;clearInterrupt&amp;#039; is never used." verbose="The function &amp;#039;clearInterrupt&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="393"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getEvent&amp;#039; is never used." verbose="The function &amp;#039;getEvent&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="435"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getStatus&amp;#039; is never used." verbose="The function &amp;#039;getStatus&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="412"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;registerInterrupt&amp;#039; is never used." verbose="The function &amp;#039;registerInterrupt&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit TSL2591 Library\Adafruit_TSL2591.cpp" line="366"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit Unified Sensor\Adafruit_Sensor.h" line="24"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;WProgram.h&amp;quot; not found." verbose="Include file: &amp;quot;WProgram.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit Unified Sensor\Adafruit_Sensor.h" line="29"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Arduino.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;time.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;time.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Wire.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Wire.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;WiFi.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;WiFi.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="4"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;sensor_tsl2591.h&amp;quot; not found." verbose="Include file: &amp;quot;sensor_tsl2591.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="5"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;sensor_bme280.h&amp;quot; not found." verbose="Include file: &amp;quot;sensor_bme280.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="6"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;sensor_sgp30.h&amp;quot; not found." verbose="Include file: &amp;quot;sensor_sgp30.h&amp;quot; not found." sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="7"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &amp;#039;local_time_info&amp;#039; can be declared as pointer to const" verbose="Variable &amp;#039;local_time_info&amp;#039; can be declared as pointer to const" cwe="398" file0="Code/src/main.cpp" sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="39"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;loop&amp;#039; is never used." verbose="The function &amp;#039;loop&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="57"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setup&amp;#039; is never used." verbose="The function &amp;#039;setup&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\src\main.cpp" line="15"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_BME280.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_BME280.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\sensor_bme280.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_Sensor.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_Sensor.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\sensor_bme280.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_SGP30.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_SGP30.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\sensor_sgp30.cpp" line="1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getAbsoluteHumidity&amp;#039; is never used." verbose="The function &amp;#039;getAbsoluteHumidity&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\src\sensor_sgp30.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Adafruit_TSL2591.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Adafruit_TSL2591.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="4/25/2025">
+            <location file="Code\src\sensor_tsl2591.cpp" line="1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;sensor_2591_simpleMEasure&amp;#039; is never used." verbose="The function &amp;#039;sensor_2591_simpleMEasure&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\src\sensor_tsl2591.cpp" line="78"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;printSensorDetails&amp;#039; is never used." verbose="The function &amp;#039;printSensorDetails&amp;#039; is never used." cwe="561" sinceDate="4/25/2025">
+            <location file="Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit Unified Sensor\Adafruit_Sensor.cpp" line="8"/>
+        </error>
+    </errors>
+</results>

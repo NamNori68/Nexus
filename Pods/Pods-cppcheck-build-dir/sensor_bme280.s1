@@ -1,0 +1,2 @@
+sensor_bme280_setup global:[bme] call:[begin,delay,print,println,sensorID] noreturn:[delay]
+sensor_bme280_measure global:[bme,humidity,temp] call:[print,println,readAltitude,readHumidity,readPressure,readTemperature] noreturn:[println]

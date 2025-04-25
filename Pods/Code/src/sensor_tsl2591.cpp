@@ -75,7 +75,7 @@ void sensor_2591_configure(void)
   Serial.println(F(""));
 }
 
-void sensor_2591_simpleMEasure(void)
+void sensor_2591_simpleMeasure(void)
 {
   // Simple data read example. Just read the infrared, fullspecrtrum diode 
   // or 'visible' (difference between the two) channels.

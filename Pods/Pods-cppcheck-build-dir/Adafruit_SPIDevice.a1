@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16245147608038303725">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;Arduino.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.h" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;SPI.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;SPI.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.h" line="9" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="0" column="0"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;_dataOrder&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;_dataOrder&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="74" column="3"/>
+            <symbol>_dataOrder</symbol>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &apos;Adafruit_SPIDevice&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;Adafruit_SPIDevice&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="22" column="3"/>
+            <symbol>Adafruit_SPIDevice</symbol>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &apos;Adafruit_SPIDevice&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;Adafruit_SPIDevice&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="22" column="3"/>
+            <symbol>Adafruit_SPIDevice</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Adafruit_SPIDevice&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Adafruit_SPIDevice&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.h" line="97" column="3"/>
+            <symbol>Adafruit_SPIDevice</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="10886804047324258700"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="MSBFIRST"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalRead"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="13143388624843154155"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalRead"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="352" column="27"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="355" column="27"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="446" column="27"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="18131788969783955493"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="MSBFIRST"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalRead"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="transferBytes"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="17649820546976417594"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalRead"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::mosiPort&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::mosiPort&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::mosiPort</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::clkPort&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::clkPort&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::clkPort</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::misoPort&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::misoPort&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::misoPort</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::csPort&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::csPort&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::csPort</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::mosiPinMask&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::mosiPinMask&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::mosiPinMask</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::misoPinMask&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::misoPinMask&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::misoPinMask</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::clkPinMask&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::clkPinMask&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::clkPinMask</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Adafruit_SPIDevice::csPinMask&apos; is not initialized in the constructor." verbose="Member variable &apos;Adafruit_SPIDevice::csPinMask&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="14" column="21"/>
+            <symbol>Adafruit_SPIDevice::csPinMask</symbol>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="59" column="13"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="62" column="17"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="66" column="17"/>
+        </error>
+        <error id="cstyleCast" severity="style" msg="C-style pointer casting" verbose="C-style pointer casting detected. C++ offers four different kinds of casts as replacements: static_cast, const_cast, dynamic_cast and reinterpret_cast. A C-style cast could evaluate to any of those automatically, thus it is considered safer if the programmer explicitly states which kind of cast is expected." cwe="398" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="69" column="14"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="14625283121125261641"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalPinToBitMask"/>
+    <functioncall functionName="digitalPinToPort"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="portInputRegister"/>
+    <functioncall functionName="portOutputRegister"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="17649820546976417594"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalRead"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="7085539188890060993"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="MSBFIRST"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalRead"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+        <error id="syntaxError" severity="error" msg="syntax error: 1 . print" verbose="syntax error: 1 . print" file0="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+            <location file="C:\Users\MarcMachin\OneDrive - Machin\Documents\Engineering\Projects\NEXUS\Pods\Code\.pio\libdeps\esp32-s3-devkitc-1\Adafruit BusIO\Adafruit_SPIDevice.cpp" line="370" column="15"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="14625283121125261641"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalPinToBitMask"/>
+    <functioncall functionName="digitalPinToPort"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="portInputRegister"/>
+    <functioncall functionName="portOutputRegister"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="275" col="11" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="1" call-argvalue-ufr="0"/><function-call call-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:121:8" call-funcname="transfer" call-argnr="1" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="504" col="3" my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:118:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="Adafruit_SPIDevice" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h" line="94" col="1" hash="2102758224361466585"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.h:112:8" my-argnr="1" my-argname="buffer" file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" line="403" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="begin" lineNumber="92"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="131"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="transfer" lineNumber="273"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransaction" lineNumber="283"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransaction" lineNumber="294"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="setChipSelect" lineNumber="306"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="beginTransactionWithAssertingCS" lineNumber="318"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="endTransactionWithDeassertingCS" lineNumber="327"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write" lineNumber="343"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="read" lineNumber="402"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_then_read" lineNumber="438"/>
+    <functiondecl file="C:/Users/MarcMachin/OneDrive - Machin/Documents/Engineering/Projects/NEXUS/Pods/Code/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO/Adafruit_SPIDevice.cpp" functionName="write_and_read" lineNumber="502"/>
+    <functioncall functionName="Adafruit_SPIDevice"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="INPUT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="OUTPUT"/>
+    <functioncall functionName="SPI"/>
+    <functioncall functionName="SPISettings"/>
+    <functioncall functionName="SPI_MODE0"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="beginTransaction"/>
+    <functioncall functionName="beginTransactionWithAssertingCS"/>
+    <functioncall functionName="delayMicroseconds"/>
+    <functioncall functionName="digitalPinToBitMask"/>
+    <functioncall functionName="digitalPinToPort"/>
+    <functioncall functionName="digitalWrite"/>
+    <functioncall functionName="endTransaction"/>
+    <functioncall functionName="endTransactionWithDeassertingCS"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="pinMode"/>
+    <functioncall functionName="portInputRegister"/>
+    <functioncall functionName="portOutputRegister"/>
+    <functioncall functionName="setChipSelect"/>
+    <functioncall functionName="transfer"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

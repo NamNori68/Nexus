@@ -1,0 +1,4 @@
+Adafruit_Sensor
+Adafruit_Sensor
+enableAutoRange
+printSensorDetails call:[F,getSensor,print,println] noreturn:[println]

@@ -1,0 +1,6 @@
+Adafruit_GenericDevice
+begin
+write call:[_write_func] noreturn:[_write_func]
+read call:[_read_func] noreturn:[_read_func]
+readRegister call:[_readreg_func] noreturn:[_readreg_func]
+writeRegister call:[_writereg_func] noreturn:[_writereg_func]

@@ -1,5 +1,5 @@
-#ifndef TSL2591_H
-#define TSL2591_H
+#ifndef CODE_INCLUDE_SENSOR_TSL2591_H_
+#define CODE_INCLUDE_SENSOR_TSL2591_H_
 
 void sensor_2591_setup(void);
 

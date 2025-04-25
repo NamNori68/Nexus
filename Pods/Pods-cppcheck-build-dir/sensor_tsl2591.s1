@@ -1,0 +1,5 @@
+sensor_2591_setup global:[tsl] call:[F,begin,println] noreturn:[println]
+sensor_2591_displayDetails global:[tsl] call:[F,delay,getSensor,print,println] noreturn:[delay]
+sensor_2591_configure global:[tsl] call:[F,getGain,getTiming,print,println,setGain,setTiming] noreturn:[println]
+sensor_2591_simpleMEasure global:[tsl] call:[F,getLuminosity,millis,print,println] noreturn:[println]
+sensor_2591_advancedMeasure global:[tsl] call:[F,calculateLux,getFullLuminosity,millis,print,println] noreturn:[println]
