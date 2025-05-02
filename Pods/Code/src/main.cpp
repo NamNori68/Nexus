@@ -1,4 +1,6 @@
 #include <Arduino.h>
+#include <stdexcept>
+#include <iostream>
 #include <time.h>
 #include <Wire.h>
 #include <WiFi.h>
@@ -7,6 +9,14 @@
 #include "sensor_sgp30.h"
 
 #define LED_GPIO 2
+
+using namespace std;
+
+const char* ssid = "Draedus";
+const char* password = "Enterprise65";
+const char* ntpServer = "pool.ntp.org";
+const long gmtOffset_sec = -28800; //3600;
+const int daylightOffset_sec = 3600;
 
 //IC2 Pin definition for ESP30 board
 int scl_pin = 7;
@@ -31,6 +41,28 @@ void setup() {
 
   // SGP30 AQM Sensor
   sensor_sgp30_setup();
+
+  WiFi.mode(WIFI_AP);
+  WiFi.disconnect();
+  delay(100);
+
+  WiFi.setHostname("Nexus ESP32 Pod");
+
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print('.');
+    delay(1000);
+  }
+
+  configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+
+  struct tm timeinfo;
+  if (!getLocalTime(&timeinfo)) {
+    Serial.println("Failed to obtain tim");
+    delay(1000);
+  }
+  Serial.println(&timeinfo, "%A, %B %d %Y %H:%M:%S");
+  Serial.println(WiFi.localIP());
 }
 
 void print_time() 
@@ -56,24 +88,30 @@ void print_time()
 
 void loop() 
 {
-  //Serial.println("Guten Tag, Wald");
-  digitalWrite(LED_GPIO, HIGH);
-  delay(1000);
-  digitalWrite(LED_GPIO, LOW);
-  delay(1000);
-
+  //digitalWrite(LED_GPIO, HIGH);
+  //delay(1000);
+  //digitalWrite(LED_GPIO, LOW);
+  //delay(1000);
   print_time();
 
-  // BMD280 Sensor Read
-  sensor_bme280_measure();
+  try
+  {
+    // BMD280 Sensor Read
+    sensor_bme280_measure();
 
-  // 2591 Sensor Read
-  sensor_2591_advancedMeasure();
+    // 2591 Sensor Read
+    sensor_2591_advancedMeasure();
 
-  // SGP30 AQM Sensor Read0
-  sensor_sgp30_measure();
-
+    // SGP30 AQM Sensor Read0
+    sensor_sgp30_measure();
+  }
+  catch(invalid_argument& e)
+  {
+    cerr << e.what() << '\n';
+    return;
+  }
+  
   Serial.println();
-  delay(2500);//delayTime);
+  delay(60000);
 }
 
