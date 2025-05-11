@@ -26,6 +26,15 @@ void sensor_bme280_setup(void)
         while (1) delay(10);
     }
 }
+float getTemp(void)
+{
+    return 1.8 * bme.readTemperature() + 32;
+}
+
+float getHumidity(void)
+{
+    return bme.readHumidity();
+}
 
 void sensor_bme280_measure(void)
 {

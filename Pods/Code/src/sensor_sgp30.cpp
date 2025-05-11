@@ -1,4 +1,5 @@
 #include <Adafruit_SGP30.h>
+#include <sensor_bme280.h>
 
 Adafruit_SGP30 sgp;
 
@@ -23,7 +24,8 @@ void sensor_sgp30_setup(void)
     Serial.println(sgp.serialnumber[2], HEX);
   
     // If you have a baseline measurement from before you can assign it to start, to 'self-calibrate'
-    //sgp.setIAQBaseline(0x8E68, 0x8F41);  // Will vary for each sensor!
+    //sgp.setIAQBaseline(0xA2D0, 0xA2CF);  // Will vary for each sensor!...  also have 0xA2CF, 0xA2CF
+    sgp.setIAQBaseline(0xA2CF, 0xA2CF);
 }
 
 int counter = 0;
@@ -34,6 +36,8 @@ void sensor_sgp30_measure(void)
   //float temperature = 22.1; // [°C]
   //float humidity = 45.2; // [%RH]
   //sgp.setHumidity(getAbsoluteHumidity(temperature, humidity));
+
+  sgp.setHumidity(getAbsoluteHumidity(getTemp(), getHumidity()));
 
   if (! sgp.IAQmeasure()) {
     Serial.println("Measurement failed");

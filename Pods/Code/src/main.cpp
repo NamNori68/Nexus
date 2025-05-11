@@ -58,7 +58,7 @@ void setup() {
 
   struct tm timeinfo;
   if (!getLocalTime(&timeinfo)) {
-    Serial.println("Failed to obtain tim");
+    Serial.println("Failed to obtain time");
     delay(1000);
   }
   Serial.println(&timeinfo, "%A, %B %d %Y %H:%M:%S");

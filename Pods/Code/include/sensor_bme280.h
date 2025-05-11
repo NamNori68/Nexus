@@ -5,4 +5,8 @@ void sensor_bme280_setup(void);
 
 void sensor_bme280_measure(void);
 
+float getTemp(void);
+
+float getHumidity(void);
+
 #endif
