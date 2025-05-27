@@ -25,7 +25,7 @@ void sensor_sgp30_setup(void)
   
     // If you have a baseline measurement from before you can assign it to start, to 'self-calibrate'
     //sgp.setIAQBaseline(0xA2D0, 0xA2CF);  // Will vary for each sensor!...  also have 0xA2CF, 0xA2CF
-    sgp.setIAQBaseline(0xA2CF, 0xA2CF);
+    sgp.setIAQBaseline(0xA2C6, 0xA2CD);
 }
 
 int counter = 0;
@@ -37,7 +37,7 @@ void sensor_sgp30_measure(void)
   //float humidity = 45.2; // [%RH]
   //sgp.setHumidity(getAbsoluteHumidity(temperature, humidity));
 
-  sgp.setHumidity(getAbsoluteHumidity(getTemp(), getHumidity()));
+  sgp.setHumidity(getAbsoluteHumidity(sensor_bme280_getTemp(), sensor_bme280_getHumidity()));
 
   if (! sgp.IAQmeasure()) {
     Serial.println("Measurement failed");

@@ -1,0 +1,18 @@
+[
+    {
+        "size": "xs",
+        "fuel": "electric",
+        "doors": 1,
+        "transmission": "auto",
+        "id": 1,
+        "trips": []
+    },
+    {
+        "size": "m",
+        "fuel": "hybrid",
+        "doors": 15,
+        "transmission": "auto",
+        "id": 2,
+        "trips": []
+    }
+]

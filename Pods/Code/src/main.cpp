@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <ArduinoJson.h>
 #include <stdexcept>
 #include <iostream>
 #include <time.h>
@@ -7,6 +8,7 @@
 #include "sensor_tsl2591.h"
 #include "sensor_bme280.h"
 #include "sensor_sgp30.h"
+#include "sensor.h"
 
 #define LED_GPIO 2
 
@@ -22,6 +24,8 @@ const int daylightOffset_sec = 3600;
 int scl_pin = 7;
 int sda_pin = 8;
 
+Sensor _sensor;
+
 void setup() {
   Serial.begin(115200);
   delay(1000);
@@ -31,16 +35,18 @@ void setup() {
   Wire.setPins(sda_pin, scl_pin);
   Wire.begin();
 
+  _sensor.setup();
+
   // BME280 Temp Sensor
-  sensor_bme280_setup();
+  //sensor_bme280_setup();
   
   // TSL2591 Lux Sensor
-  sensor_2591_setup();
-  sensor_2591_displayDetails();
-  sensor_2591_configure();
+  //sensor_2591_setup();
+  //sensor_2591_displayDetails();
+  //sensor_2591_configure();
 
   // SGP30 AQM Sensor
-  sensor_sgp30_setup();
+  //sensor_sgp30_setup();
 
   WiFi.mode(WIFI_AP);
   WiFi.disconnect();
@@ -96,6 +102,7 @@ void loop()
 
   try
   {
+    _sensor.measure();
     // BMD280 Sensor Read
     sensor_bme280_measure();
 
@@ -104,6 +111,15 @@ void loop()
 
     // SGP30 AQM Sensor Read0
     sensor_sgp30_measure();
+    
+    JsonDocument doc;
+
+    doc["sensor"] = "BME280";
+    //doc["time"] = &timeinfo, "%A, %B %d %Y %H:%M:%S";
+    doc["Temperature"] = _sensor.Temp;
+    doc["Humidity"] = _sensor.Humidity;
+
+    serializeJson(doc, Serial);
   }
   catch(invalid_argument& e)
   {
